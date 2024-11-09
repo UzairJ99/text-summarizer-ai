@@ -24,7 +24,9 @@ body {
   margin: auto auto;
   display: flex;
   flex-direction: column;
-  padding: 25%;
+  padding: 0 25%;
+  justify-content: center;
+  height: 100vh;
 }
 
 .title {

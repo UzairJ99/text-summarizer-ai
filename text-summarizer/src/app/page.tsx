@@ -11,7 +11,7 @@ export default function Home() {
     setLoading(true);
 
     try {
-      const response = await fetch("api/summeraize", {
+      const response = await fetch("api/summarize", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ text }),
